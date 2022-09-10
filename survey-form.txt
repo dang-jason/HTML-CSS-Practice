@@ -26,10 +26,10 @@
             <p> Who is your favorite roomate?</br>
               <select id="dropdown">
                 <option>(select one)</option>
-                <option>Jason</option>
-                <option>Gabriel</option>
-                <option>Nicholas</option>
-                <option>Chris</option>
+                <option>Jimmy</option>
+                <option>Bobby</option>
+                <option>Ann</option>
+                <option>John</option>
               </select>
             </p>
             <label for="">Do you like your current roommate?</label>
