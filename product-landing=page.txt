@@ -1,0 +1,273 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <title>Limitless</title>
+  </head>
+  <body>
+    <div class="header">
+      <header id="header">
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/40e2143a-0e62-4555-8653-b6ee491e9fc3/dcj9n92-2f4a61b2-d2e8-4541-8f96-874b17b4537d.png/v1/fill/w_1024,h_1024,strp/wings_logo_by_deivisateivis_dcj9n92-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzQwZTIxNDNhLTBlNjItNDU1NS04NjUzLWI2ZWU0OTFlOWZjM1wvZGNqOW45Mi0yZjRhNjFiMi1kMmU4LTQ1NDEtOGY5Ni04NzRiMTdiNDUzN2QucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.-VkVK64gyQn6VU9NCGJRIoU7XrN9e0tkcNBYh-IWi08" alt="My Logo" id="header-img">
+        <h1>Limitless</h1>
+        <nav id="nav-bar" class="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#benefits">Benefits</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <main>
+      <div class="intro-video" id="about">
+        <h2 class="descriptor">Magnus Midtbø - Sky is the limit</h2>
+        <iframe id="video" class="promo-vid" width="800px" height="450px" src="https://www.youtube.com/embed/-2anG1ddT7U?controls=0"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="caption">Signing up for this course will change your life</p>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input type="email" id="email" placeholder="Enter your email" name="email";/>
+          <input type="submit" id="submit" value="Get Started ->" />
+        </form>
+      </div>
+      <div class="benefits"  id="benefits">
+        <div class="benefit-title">
+          <h3>Benefits</h3>
+        </div>
+        <div class="perks">
+          <div class="perk"
+          <label class="logo-title"><i class="fas fa-user-clock"></i> Time</label>
+          <p>You will get all the time in the world</p>
+          </div>
+          <div class="perk"
+          <label class="logo-title"><i class="fas fa-money-bill"></i> Money</label>
+          <p>You will make the most money</p>
+          </div>
+          <div class="perk"
+          <label class="logo-title"><i class="fas fa-comment"></i> Connections</label>
+          <p>You will meet new people</p>
+          </div>
+        </div>
+      </div>
+      <div id="pricing" class="pricing">
+        <div class="option">
+          <h2>$999</h2>
+          <ul class="packages">
+            <li><i class="fas fa-thumbs-up"></i>Time</li>
+            <li><i class="fas fa-thumbs-up"></i>Money</li>
+            <li><i class="fas fa-thumbs-up"></i>Connections</li>
+          </ul>
+          <h3><a href="">Purchase</a></h3>
+        </div>
+        <div class="option">
+          <h2>$0.01</h2>
+          <ul class="packages">
+            <li><i class="fas fa-thumbs-down"></i>Time</li>
+            <li><i class="fas fa-thumbs-down"></i>Money</li>
+            <li><i class="fas fa-thumbs-down"></i>Connections</li>
+          </ul>
+          <h3><a href="">Purchase</a></h3>
+        </div>
+      </div>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+:root{
+  --background-color:#E1D9D1;
+  --background-color2: #BC8F8F;
+  --pricing-color: #C4AEAD;
+  --purchase-color: #FBCFCD;
+}
+
+html{
+  box-sizing: border-box;
+  background-color: var(--background-color)
+}
+main{
+  position: relative;
+  top: 100px;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  width: 100vw;
+  height: 90px;
+  position: absolute;
+  display:flex;
+}
+header{
+  width:100vw;
+  height: 90px;
+  position: fixed;
+  left: -1px;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  background-color:var(--purchase-color);
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+}
+header img{
+  width: 70px;
+  position: relative;
+  left: 30px;
+}
+
+header h1{
+  display: inline;
+  position: absolute;
+  left: 47vw;
+}
+
+.nav-bar{
+  position: fixed;
+
+}
+
+.nav-bar ul{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+.nav-bar li{
+  display: inline-block;
+}
+header li a{
+  text-decoration: none;
+  width: 100px;
+  padding: 25px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  overflow:hidden;
+  color:black;
+  position: relative;
+  top: 33px;
+  left: 80vw;
+}
+
+.nav-bar li a:hover{
+  background-color: var(--background-color2);
+  color: var(--background-color1);
+  border-radius: 50px;
+}
+
+.intro-video{
+  text-align: center;
+}
+
+.benefits{
+  border: 3px solid var(--background-color2);
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: var(--pricing-color);
+}
+
+.benefit-title{
+  width: 100%;
+  height: 85px;
+  font-size: 35px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -65px;
+}
+
+.perks{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  position: relative;
+  top: -50px;
+}
+
+.perk{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 20px;
+}
+
+.fas{
+  font-size: 1.5rem;
+}
+
+.benefits p{
+  width: 180px;
+  text-align: center;
+}
+
+.pricing{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.pricing h2{
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.option{
+  border: 3px solid var(--background-color2);
+  background: var(--pricing-color);
+  width: 300px;
+  height: 400px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.option ul{
+  list-style: none;
+}
+.option li{
+  font-size: 23px;
+  position: relative;
+  top: -20px;
+  margin-bottom: 30px;
+}
+
+.option a{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  position: relative;
+  top: -40px;
+  border: 2px solid var(--background-color2);
+}
+
+.option a:hover{
+  background-color: var(--purchase-color);
+  color: var(--background-color1);
+}
+
+@media only screen and (max-width: 760px){
+  :root{
+  --background-color:#E1D9D1;
+  --background-color2: #6b8e23;
+  --pricing-color: #ebecf0;
+  --purchase-color: #808000;
+}
+}
+
+** end of undefined **
+
