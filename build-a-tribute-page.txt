@@ -1,0 +1,128 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title id="title">Elon Musk Tribute</title>
+    <meta charset="utf-8"
+    <meta name="viewport" content="width=device-width, initial-width=1">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="main">
+      <h1>Elon Musk</h1>
+      <p id="description">The richest man alive</p>
+      <div class="portrait divider" id="img-div">
+        <img class="image" id="image" src="https://nypost.com/wp-content/uploads/sites/2/2022/08/elon-musk-1.jpg?quality=75&strip=all&w=618" alt="">
+        <div id="img-caption">
+          <p >Mr. Elon Musk dressed up for the 2022 Meta Gala</p>
+        </div>
+      </div>
+      <div class="tribute-info" id="tribute-info">
+        <h2>Brief timeline of Elon Musk's life</h2>
+        <div class="divider">
+          <ul >
+            <li><span class="bold">1971</span>	- Elon Reeve Musk</li>
+            <li><span class="bold">1980 </span> - Elon Musk's parents divorced.</li>
+            <li><span class="bold">1942</span> - Receives a Ph.D. in Genetics and Plant Pathology</li>
+            <li><span class="bold">1995</span> - Elon Musk started an internet city guide web software company Zip2 with his brother Kimbal.</li>
+            <li><span class="bold">1999</span> - Zip2 was sold to Compaq for $307 million USD.</li>
+            
+            <li><span class="bold">2002</span> - Elon Musk founded SpaceX with $100 million USD of his own project becoming CEO and CTO.</li>
+            <li><span class="bold">2002</span> - eBay bought PayPal for $1.5 billion USD. Elon Musk got $165 million.</li>
+            <li><span class="bold">2004</span> - Elon Musk's wife gave birth to two sons, twins, through in vitro fertilization.</li>
+            <li><span class="bold">2007</span> - Elon Musk became CEO and product architect of Tesla.</li>
+            <li><span class="bold">2011</span> - Elon Musk announced plans to send humans to Mars in 10-20 years.</li>
+            <li<span class="bold">2012</span> - SolarCity and Tesla collaboration for better electric vehicle batteries.</li>
+            <li><span class="bold">2015</span> - Held Hyperloop design competition.</li>
+            <li><span class="bold">2017</span> - The Hyperloop test run began in Nevada.</li>
+          </ul>
+        </div>
+      </div>
+      <p class="bold">Feel free to learn more about Elon Musk on <a id="tribute-link" href="https://en.wikipedia.org/wiki/Elon_Musk" target="_blank" class="links">Wikipedia</a><p>
+    </main>
+    <footer>
+      <address>
+        Made by Jason Dang </br>
+        <a class="social" href="https://www.linkedin.com/in/jasdang/">LinkedIn</a>
+      </address>
+    </footer>
+  </body>
+  
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html{
+  background-color: #1c1f24;
+}
+h1{
+  text-align: center;
+  font-size: 45px;
+  color: #D5DBDB ;
+  margin: 23px auto;
+}
+body{
+  background-color: #1c1e2a;
+  font-family: Verdana;
+}
+p{
+  text-align: center;
+  margin-top: 0;
+  color: #D5DBDB;
+}
+.image{
+  width: 800px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 10px 0;
+  display:block;
+}
+.portrait{
+  background-color: #1c1f24  ;
+  margin: 15px 30px;
+}
+
+.bold{
+  font-weight: 800
+}
+.tribute-info{
+  color:#D5DBDB;
+  text-align:center;
+}
+
+.tribute-info ul{
+  text-align: left;
+  display: inline-block;
+  margin:0 auto;
+}
+
+.tribute-info li{
+  margin: 25px 0;
+}
+.links{
+  color:#D5DBDB;
+  border-bottom:0;
+  text-decoration: underline;
+}
+address{
+  text-align:center;
+  color:#828686
+}
+.social{
+  color:#828686;
+  border-bottom:0;
+  text-decoration: underline;
+}
+.divider{
+  border: 4px solid #D5DBDB;
+  padding: 30px;
+}
+
+** end of undefined **
+
