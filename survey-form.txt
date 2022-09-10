@@ -1,0 +1,117 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roommate Form</title>
+  </head>
+  <body>
+    <h1 id="title">Roommate Survey</h1>
+    <p id="description">This is a form to rate your roomate</p>
+    <div class="survey">
+      <div class="fillout">
+        <form id="survey-form">
+            <section class="information">
+            <label id="name-label" for="name">Enter Your Name:</label>
+            <input id="name" type="text" placeholder="e.g. John Doe" required>
+            <label id="email-label" for="email">Enter Your Email:</label>
+            <input id="email" type="email" placeholder="e.g. DoeJohn2022@gmail.com" required>
+            <label id="number-label" for="number">How Happy Are You?</label>
+            <input id="number" type="number" placeholder="1-10" max="10" min="1" required>
+          </section>
+          <section id="opinions">
+            <p> Who is your favorite roomate?</br>
+              <select id="dropdown">
+                <option>(select one)</option>
+                <option>Jason</option>
+                <option>Gabriel</option>
+                <option>Nicholas</option>
+                <option>Chris</option>
+              </select>
+            </p>
+            <label for="">Do you like your current roommate?</label>
+            <p><input type="radio" name="satisfication" value="yes">Yes</p>
+            <p><input type="radio" name="satisfication" value="maybe">Maybe</p>
+            <p><input type="radio" name="satisfication" value="no">No</p>
+          </section>
+          <section>
+            <p>What would you want an improvement in?</p>
+            <p><input type="checkbox" value="cleaning"> Cleaning</p>
+            <p><input type="checkbox" value="communication"> Communication</p>
+            <p><input type="checkbox" value="activities"> Activities</p>
+            <p><input type="checkbox" value="space"> Personal Space</p>
+            <p>Any additional comments?</p>
+            <textarea placeholder= "Your input matters!!!"></textarea>
+          </section>
+          <input type="submit" id="submit">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  background-color: #E8E4C9;
+  font-family: Verdana;
+}
+.information input{
+  display: block;
+}
+h1, #description{
+  text-align: center;
+}
+.survey{
+  position: relative;
+  border:1px solid black;
+  width: 750px;
+  height: 100vh;
+  margin: 25px auto 0;
+  background-color: #D8E8C9;
+}
+.fillout{
+  position: absolute;
+  left: 10%;
+  top: 5%;
+  font-size: 18px;
+}
+.information input, select{
+  width: 600px;
+  height: 30px;
+  background-color:#E8E4C9;
+  font-size: 16px;
+  font-weight: 600;
+}
+textarea{
+  width: 600px;
+  height: 100px;
+  background-color:#E8E4C9;
+  font-size: 16px;
+  font-weight: 600;
+}
+p input{
+  height:15px;
+  width: 15px;
+  display:flex;
+  float: left;
+  position: relative;
+  bottom: -1px;
+}
+#submit{
+  width: 600px;
+  height: 30px;
+  margin-top: 5px;
+  background-color: #C8E4C9;
+}
+
+
+
+
+** end of undefined **
+
